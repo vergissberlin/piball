@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/vergissberlin/nr-soccer",
   "devDependencies": {
-    "firebase": "^1.0.24"
+    "firebase": "^1.0.24",
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "request": "^2.47.0",
+    "time-grunt": "^1.0.0"
   }
 }

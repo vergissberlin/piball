@@ -1,6 +1,6 @@
 {
   "firebase": "vivid-fire-2266",
-  "public": "view",
+  "public": "www",
   "ignore": [
     "firebase.json",
     "**/.*",
