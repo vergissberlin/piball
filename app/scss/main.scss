@@ -69,7 +69,6 @@ body {
 
 // ==
 // Elements
-
 header {
 	position: absolute;
 	left: 0;
@@ -80,9 +79,6 @@ header {
 }
 
 main {
-	width: 100%;
-	height: 100%;
-
 	.scores {
 		width: 100%;
 		text-align: center;
@@ -90,5 +86,15 @@ main {
 		font-size: 9em;
 		@include text-shadow(rgba(#189, 0.2) 1px 1px 0, rgba(#189, 0.2) 2px 2px 0, rgba(#189, 0.2) 3px 3px 0);
 	}
+}
 
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	margin-top: -50px;
+	vertical-align: middle;
+	text-align: center;
 }
