@@ -14,7 +14,7 @@
 
 <main>
 	<div class="centered scores">
-		<span id="black">0</span> : <span id="gray">0</span>
+		<span id="scoreOne">0</span> : <span id="scoreTwo">0</span>
 	</div>
 </main>
 
@@ -24,8 +24,8 @@
 
 	// display scores on load
 	soccerRef.on("value", function(snapshot) {
-		$('#black').text(snapshot.child('black').val());
-		$('#gray').text(snapshot.child('gray').val());
+		$('#scoreOne').text(snapshot.child('scoreOne').val());
+		$('#scoreTwo').text(snapshot.child('scoreTwo').val());
 	});
 
 	// Update our GUI to change a scores.
