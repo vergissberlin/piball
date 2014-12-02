@@ -1,4 +1,4 @@
-## Install WLAN on RaspberryPI with Debian
+## Install WiFi on RaspberryPI with Debian
 
 
 ### Rename Host (optional)
