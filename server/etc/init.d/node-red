@@ -1,5 +1,4 @@
 #!/bin/bash
-
 ### BEGIN INIT INFO
 # Provides:          node-red
 # Required-Start:    $local_fs $remote_fs $network
@@ -8,7 +7,6 @@
 # Default-Stop:      0 1 6
 # Short-Description: Start or stop the node-red server
 ### END INIT INFO
-
 # Can be downloaded and installed in one go by using this command
 # sudo wget -O /tmp/download https://gist.github.com/Belphemur/cf91100f81f2b37b3e94/download && sudo tar -zxf /tmp/download --strip-components 1 -C /etc/init.d && sudo chmod +x /etc/init.d/node-red && sudo update-rc.d node-red defaults
 
@@ -34,40 +32,40 @@ PIDFILE=/var/run/node-red.pid
 . /lib/lsb/init-functions
 
 start_daemon () {
-   start-stop-daemon --start --chdir $SCRIPT_DIR --background \
-  --chuid $USER --name $NAME \
-          $START_STOP_OPTIONS --make-pidfile --pidfile $PIDFILE \
-  --startas /bin/bash -- -c "exec $DAEMON $OPTIONS >> $LOG 2>&1"
+        start-stop-daemon --start --chdir $SCRIPT_DIR --background \
+        --chuid $USER --name $NAME \
+                $START_STOP_OPTIONS --make-pidfile --pidfile $PIDFILE \
+        --startas /bin/bash -- -c "exec $DAEMON $OPTIONS >> $LOG 2>&1"
                 log_end_msg 0
 }
 
 case "$1" in
-  start)
-    log_daemon_msg "Starting daemon" "$NAME"
-    start_daemon
-  ;;
-  stop)
-     log_daemon_msg "Stopping daemon" "$NAME"
-                 start-stop-daemon --stop --quiet \
-    --chuid $USER \
-    --chdir $SCRIPT_DIR \
-    --exec $DAEMON --pidfile $PIDFILE --retry 30 \
-    --oknodo || log_end_msg $?
-                log_end_msg 0
-  ;;
+        start)
+                        log_daemon_msg "Starting daemon" "$NAME"
+                        start_daemon
 
-  restart)
-    $0 stop
-    sleep 5
-    $0 start
-  ;;
-  status)
-    status_of_proc "$DAEMON" "$NAME"
-    exit $?
-  ;;
+        ;;
+        stop)
+             log_daemon_msg "Stopping daemon" "$NAME"
+                         start-stop-daemon --stop --quiet \
+            --chuid $USER \
+            --chdir $SCRIPT_DIR \
+            --exec $DAEMON --pidfile $PIDFILE --retry 30 \
+            --oknodo || log_end_msg $?
+                        log_end_msg 0
+        ;;
+        restart)
+	    $0 stop
+	    sleep 5
+	    $0 start
+	;;
+	status)
+        status_of_proc "$DAEMON" "$NAME"
+        exit $?
+        ;;
 
-  *)
-    echo "Usage: $0 {start|stop|restart}"
-    exit 1
+        *)
+                echo "Usage: $0 {start|stop|restart}"
+                exit 1
 esac
 exit 0
