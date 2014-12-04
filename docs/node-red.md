@@ -36,8 +36,20 @@ Just repeat the install command.
 ```bash
 npm install
 ```
+#### Firebase
 
-### Install wiring-pi module
+Install firebase node for node red.
+https://github.com/hovissimo/node-red-firebase
+
+```bash
+cd ~/node-red
+npm install firebase
+cd nodes/
+git clone https://github.com/hovissimo/node-red-firebase
+```
+
+#### Install wiring-pi module
+
 This version of working with the Raspberry Pi uses a node.js wrapper to the WiringPi libraries previously installed, and so gives all functions you write access to the Pi capabilities at all times, so you can do more complex things, at the expense of having to write code within a function rather than dragging and wiring nodes.
 Have a look on http://wiringpi.com/download-and-install/ or just enter:
 
