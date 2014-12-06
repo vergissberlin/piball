@@ -22,7 +22,7 @@ cat ../node-red/flows_foosball.js > server/home/pi/node-red/flows_foosball.js
 
 # 3. Add and commit changes
 git add server/home/pi/node-red/flows_foosball.js
-git commit -m"Deploy new flow from Raspberry PI"
+git commit -m"Deploy new flow from Raspberry PI" >> ~/deploy.log
 
 # 4. Push and log
 git push >> ~/deploy.log
