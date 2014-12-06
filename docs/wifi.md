@@ -1,6 +1,5 @@
 ## Install WiFi on RaspberryPI with Debian
 
-
 ### Rename Host (optional)
 
 1. <code>sudo nano /etc/hostname</code> and change the name

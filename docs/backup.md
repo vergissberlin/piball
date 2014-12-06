@@ -1,4 +1,4 @@
-# nr-soccer
+# Backup
 
 ## Create image.img from SD card
 1. Put your card in a card reader
