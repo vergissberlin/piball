@@ -1,4 +1,4 @@
-# NRsoccer
+# foosball
 
 
 ## Install debian packages

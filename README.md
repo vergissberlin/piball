@@ -1,5 +1,5 @@
-nr-soccer
-=========
+foosball
+========
 
 Game score counting with a RESTful API on node.js with NodeRED.
 
