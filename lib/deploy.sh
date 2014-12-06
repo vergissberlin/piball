@@ -13,16 +13,17 @@
 
 
 # 1. Update repository
-cd ~/foosball
-git checkout develop
-git pull
+cd ~/foosball &&\
+git checkout develop &&\
+git pull &&\
 
-# 2. Copy flow file
-cat ../node-red/flows_foosball.json > server/home/pi/node-red/flows_foosball.json
+# 2. Copy flow file and change user
+cat ../node-red/flows_foosball.json > server/home/pi/node-red/flows_foosball.json &&\
+chown pi server/home/pi/node-red/flows_foosball.json &&\
 
 # 3. Add and commit changes
-git add server/home/pi/node-red/flows_foosball.json
-git commit -m"Deploy new flow from Raspberry PI" >> ~/deploy.log
+git add server/home/pi/node-red/flows_foosball.json &&\
+git commit -m"Deploy new flow from Raspberry PI" >> ~/deploy.log &&\
 
 # 4. Push and log
 git push >> ~/deploy.log
