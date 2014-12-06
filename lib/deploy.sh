@@ -18,10 +18,10 @@ git checkout develop
 git pull
 
 # 2. Copy flow file
-cat ../node-red/flows_foosball.js > server/home/pi/node-red/flows_foosball.js
+cat ../node-red/flows_foosball.json > server/home/pi/node-red/flows_foosball.json
 
 # 3. Add and commit changes
-git add server/home/pi/node-red/flows_foosball.js
+git add server/home/pi/node-red/flows_foosball.json
 git commit -m"Deploy new flow from Raspberry PI" >> ~/deploy.log
 
 # 4. Push and log
