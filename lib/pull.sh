@@ -25,5 +25,6 @@ cat ../node-red/flows_foosball.json > ../node-red/flows_backup.json &&\
 cat server/home/pi/node-red/flows_foosball.json > ../node-red/flows_foosball.json &&\
 chown pi ../node-red/flows_foosball.json &&\
 
-# 4. Push and log
-git push >> ~/deploy.log
+# 4. Restart node-red
+sudo /etc/init.d/node-red restart
+
