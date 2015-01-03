@@ -1,6 +1,5 @@
 ## Install WiFi on RaspberryPI with Debian
 
-
 ### Rename Host (optional)
 
 1. <code>sudo nano /etc/hostname</code> and change the name
@@ -8,9 +7,9 @@
 
 ### Hardware detection
 You don't know which hardware you've connected to your raspberry pi? No problemo!
-# Get a wired SSH connect to your Raspberry pi
-# Type <code>lsub</code>
-# Search for a driver https://wiki.debian.org/wifi
+1. Get a wired SSH connect to your Raspberry pi
+- Type <code>lsub</code>
+- Search for a driver https://wiki.debian.org/wifi
 
 ### Install Driver
 
@@ -24,6 +23,7 @@ You don't know which hardware you've connected to your raspberry pi? No problemo
 1. <code>iwlist scan</code>
 2. Encode passphrase <code>wpa_passphrase YOUR_SSID YOUR_PASSPHRASE</code>
 3. Edit interface file <code>sudo nano /etc/network/interfaces</code>
+
 ```bash
 auto lo
 iface lo inet loopback
