@@ -1,9 +1,9 @@
-# database
+# Database
 
 If you want to use the MySQL nodes to collect all score in a database,
 you need to install some dependencies
 
-## install
+## Install
 ```bash
 sudo apt-get install mysql-server
 cd ~/node-red

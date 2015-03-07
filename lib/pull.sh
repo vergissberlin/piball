@@ -19,12 +19,11 @@ git pull &&\
 
 
 # 2. Create backup
-cat ../node-red/flows_foosball.json > ../node-red/flows_backup.json &&\
+cat ~/.node-red/flows_foosball.json > ~/.node-red/flows_backup.json &&\
 
 # 3. Copy flow file and change user
-cat server/home/pi/node-red/flows_foosball.json > ../node-red/flows_foosball.json &&\
-chown pi ../node-red/flows_foosball.json &&\
+cat server/home/pi/node-red/flows_foosball.json > ~/.node-red/flows_foosball.json &&\
+chown pi ~/.node-red/flows_foosball.json &&\
 
 # 4. Restart node-red
 sudo /etc/init.d/node-red restart
-

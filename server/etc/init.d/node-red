@@ -17,14 +17,22 @@
 # sudo chown NEWUSER /var/log/node-red.log
 # else the log won't be writtable
 USER=root
-# The location of Node-RED
-SCRIPT_DIR='/home/pi/node-red/'
+
+# The location of Node-RED configuration, not mandatory, leave empty/commented to let
+# Node-RED decides.
+
+#USER_DIR='/home/pi/node-red/'
 
 
 # DONT'T CHANGE unless you know what you're doing
 NAME=node-red
-DAEMON=/usr/local/bin/node
-OPTIONS="--max-old-space-size=64 red.js"
+DAEMON=/usr/local/bin/node-red-pi
+OPTIONS="--max-old-space-size=128"
+
+if [ -n "$USER_DIR" ];  then
+	OPTIONS="$OPTIONS --userDir=$USER_DIR"
+fi
+
 LOG='/var/log/node-red.log'
 
 PIDFILE=/var/run/node-red.pid
@@ -32,7 +40,7 @@ PIDFILE=/var/run/node-red.pid
 . /lib/lsb/init-functions
 
 start_daemon () {
-        start-stop-daemon --start --chdir $SCRIPT_DIR --background \
+        start-stop-daemon --start --background \
         --chuid $USER --name $NAME \
                 $START_STOP_OPTIONS --make-pidfile --pidfile $PIDFILE \
         --startas /bin/bash -- -c "exec $DAEMON $OPTIONS >> $LOG 2>&1"
@@ -49,17 +57,16 @@ case "$1" in
              log_daemon_msg "Stopping daemon" "$NAME"
                          start-stop-daemon --stop --quiet \
             --chuid $USER \
-            --chdir $SCRIPT_DIR \
             --exec $DAEMON --pidfile $PIDFILE --retry 30 \
             --oknodo || log_end_msg $?
                         log_end_msg 0
         ;;
         restart)
-	    $0 stop
-	    sleep 5
-	    $0 start
-	;;
-	status)
+			$0 stop
+			sleep 5
+			$0 start
+		;;
+		status)
         status_of_proc "$DAEMON" "$NAME"
         exit $?
         ;;

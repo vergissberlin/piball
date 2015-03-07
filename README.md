@@ -1,14 +1,14 @@
 foosball
 ========
 
-Game score counting with a RESTful API on node.js with NodeRED.
+Foosball game score counting on node.js with NodeRED.
 
 Documentation
 -------------
 
-- [node-red.md](docs/node-red.md)	Documentation for installing node-red on a Raspberry PI
-- [raspberrypi.md](docs/raspberrypi.md)	Prepare Raspberry PI
-- [wifi.md](docs/wifi.md)	Setup WiFi on Raspberry PI
-- [backup.md](docs/backup.md)	Create backup images of your Raspberry PI SD card
-- [foosball.md](docs/foosball.md)	About the foosball score counter
-- [database.md](docs/database.md)	Using a database
+1. [node-red](docs/01_node-red.md)	Documentation for installing node-red on a Raspberry PI
+- [Raspberry Pi](docs/02_raspberrypi.md)	Prepare Raspberry PI
+- [WiFi](docs/03_wifi.md)	Setup WiFi on Raspberry PI
+- [Backup](docs/04_backup.md)	Create backup images of your Raspberry PI SD card
+- [Foosball](docs/05_foosball.md)	About the foosball score counter
+- [Database](docs/06_database.md)	Using a database
