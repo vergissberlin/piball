@@ -27,3 +27,5 @@ git commit -m "Deploy new flow from Raspberry PI" >> ~/deploy.log &&\
 
 # 4. Push and log
 git push >> ~/deploy.log
+
+exit 0;

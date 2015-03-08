@@ -27,3 +27,5 @@ chown pi ~/.node-red/flows_foosball.json &&\
 
 # 4. Restart node-red
 pm2 restart node-red
+
+exit 0;
