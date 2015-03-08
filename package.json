@@ -8,7 +8,7 @@
   },
   "scripts": {
     "postinstall": "./scripts/postinstall.sh",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Info: Test install proccess only.\" && exit 0"
   },
   "repository": {
     "type": "git",
