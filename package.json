@@ -8,8 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "pwd",
-    "postinstall": "pwd",
+    "prepublish": "npm version patch && git push --tags && git push",
+    "preinstall": "node ./scripts/preinstall.js",
+    "postinstall": "node ./scripts/postinstall.js",
     "uninstall": "node ./scripts/uninstall.js"
   },
   "repository": {
