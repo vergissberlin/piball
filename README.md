@@ -1,6 +1,7 @@
 foosball
 ========
 
+[![Build Status](https://travis-ci.org/vergissberlin/foosball.svg?branch=master)](https://travis-ci.org/vergissberlin/foosball)
 [![Dependency Status](https://gemnasium.com/vergissberlin/foosball.svg)](https://gemnasium.com/vergissberlin/foosball)
 [![npm version](https://img.shields.io/npm/v/foosball.png)](https://npmjs.org/package/foosball "View this project on npm")
 [![Issues](http://img.shields.io/github/issues/vergissberlin/foosball.svg)]( https://github.com/vergissberlin/foosball/issues "GitHub ticket system")
