@@ -82,6 +82,6 @@ If you want to start Node-RED to autostart on boot then use following commands.
 
 ```bash
 sudo npm install -g pm2
-sudo pm2 start /usr/local/bin/node-red --node-args="--max-old-space-size=128" -- -v
-sudo pm2 startup
+pm2 start /usr/local/bin/node-red --node-args="--max-old-space-size=128" -- -v
+sudo env PATH=$PATH:/usr/local/bin pm2 startup linux -u pi
 ```
