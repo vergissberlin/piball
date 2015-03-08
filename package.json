@@ -7,11 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "git push --tags && git push",
-    "preinstall": "./scripts/preinstall.sh",
-    "postinstall": "node ./scripts/postinstall.js",
-    "uninstall": "node ./scripts/uninstall.js"
+    "postinstall": "./scripts/postinstall.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -32,7 +30,7 @@
   },
   "homepage": "https://github.com/vergissberlin/foosball",
   "dependencies": {
-    "firebase": "2.2.2",
-    "mysql": "2.5.5"
+    "firebase": "^2.2.2",
+    "mysql": "^2.5.5"
   }
 }
