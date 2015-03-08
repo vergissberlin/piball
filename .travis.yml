@@ -7,5 +7,5 @@ node_js:
 before_script:
   - pwd
   - mysql -e "CREATE DATABASE foosball;"
-  - mysql goat < tests/fixtures/foosball.sql
+  - mysql foosball < tests/fixtures/foosball.sql
   - mysql -e "UPDATE mysql.user SET password=PASSWORD('travis') WHERE user='travis'; FLUSH PRIVILEGES"
