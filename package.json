@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/vergissberlin/foosball",
   "dependencies": {
-    "firebase": "^2.2.2",
-    "mysql": "^2.5.5"
+    "firebase": "2.2.2",
+    "mysql": "2.5.5"
   }
 }
