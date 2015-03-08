@@ -2,8 +2,8 @@ foosball
 ========
 
 [![Dependency Status](https://gemnasium.com/vergissberlin/foosball.svg)](https://gemnasium.com/vergissberlin/foosball)
-[![npm version](https://img.shields.io/npm/v/firebase-login-email.png)](https://npmjs.org/package/firebase-login-email "View this project on npm")
-[![Issues](http://img.shields.io/github/issues/vergissberlin/firebase-login-email.svg)]( https://github.com/vergissberlin/firebase-login-email/issues "GitHub ticket system")
+[![npm version](https://img.shields.io/npm/v/foosball.png)](https://npmjs.org/package/foosball "View this project on npm")
+[![Issues](http://img.shields.io/github/issues/vergissberlin/foosball.svg)]( https://github.com/vergissberlin/foosball/issues "GitHub ticket system")
 
 Foosball game score counting with [Node-RED](http://nodered.org/).
 
