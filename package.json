@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "git push --tags && git push",
-    "preinstall": "chmod +x ./scripts/preinstall.sh && ./scripts/preinstall.sh",
+    "preinstall": "./scripts/preinstall.sh",
     "postinstall": "node ./scripts/postinstall.js",
     "uninstall": "node ./scripts/uninstall.js"
   },
