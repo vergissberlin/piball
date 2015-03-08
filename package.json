@@ -1,0 +1,36 @@
+{
+  "name": "foosball",
+  "version": "0.0.17",
+  "description": "Installer for Foosball game score counting with NodeRED.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "prepublish": "git push --tags && git push",
+    "postinstall": "./scripts/postinstall.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vergissberlin/foosball.git"
+  },
+  "keywords": [
+    "foosball",
+    "node-red",
+    "soccer"
+  ],
+  "author": "André Lademann <vergissberlin@googlemail.com>",
+  "contributors": [
+    "André Lademann <vergissberlin@googlemail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vergissberlin/foosball/issues"
+  },
+  "homepage": "https://github.com/vergissberlin/foosball",
+  "dependencies": {
+    "firebase": "2.2.2",
+    "mysql": "2.5.5"
+  }
+}

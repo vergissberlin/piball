@@ -1,0 +1,12 @@
+.*.swp
+._*
+.DS_Store
+.editorconfig
+.git
+.hg
+.lock-wscript
+.wafpickle-*
+CVS
+npm-debug.log
+/log
+

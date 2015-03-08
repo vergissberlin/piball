@@ -13,7 +13,7 @@
 
 
 # 1. Update repository
-cd ~/foosball &&\
+cd ~/.node-red/node_modules/foosball &&\
 git checkout develop &&\
 git pull &&\
 
@@ -27,3 +27,5 @@ git commit -m "Deploy new flow from Raspberry PI" >> ~/deploy.log &&\
 
 # 4. Push and log
 git push >> ~/deploy.log
+
+exit 0;

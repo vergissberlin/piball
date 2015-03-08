@@ -1,14 +1,18 @@
 foosball
 ========
 
-Foosball game score counting on node.js with NodeRED.
+[![Dependency Status](https://gemnasium.com/vergissberlin/foosball.svg)](https://gemnasium.com/vergissberlin/foosball)
+[![npm version](https://img.shields.io/npm/v/foosball.png)](https://npmjs.org/package/foosball "View this project on npm")
+[![Issues](http://img.shields.io/github/issues/vergissberlin/foosball.svg)]( https://github.com/vergissberlin/foosball/issues "GitHub ticket system")
+
+Foosball game score counting with [Node-RED](http://nodered.org/).
 
 Documentation
 -------------
 
-1. [node-red](docs/01_node-red.md)	Documentation for installing node-red on a Raspberry PI
-- [Raspberry Pi](docs/02_raspberrypi.md)	Prepare Raspberry PI
-- [WiFi](docs/03_wifi.md)	Setup WiFi on Raspberry PI
-- [Backup](docs/04_backup.md)	Create backup images of your Raspberry PI SD card
-- [Foosball](docs/05_foosball.md)	About the foosball score counter
-- [Database](docs/06_database.md)	Using a database
+1. [Raspberry Pi](docs/01_raspberrypi.md)	Prepare Raspberry PI
+3. [WiFi](docs/02_wifi.md)								Setup WiFi on Raspberry PI
+2. [Node-RED](docs/03_node-red.md)				Documentation for installing node-red on a Raspberry PI
+4. [Backup](docs/04_backup.md)						Create backup images of your Raspberry PI SD card
+5. [Foosball](docs/05_foosball.md)				About the foosball score counter
+6. [Database](docs/06_database.md)				Using a database
