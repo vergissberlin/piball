@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "./scripts/preinstall.sh",
+    "preinstall": "pwd",
     "postinstall": "pwd",
     "uninstall": "node ./scripts/uninstall.js"
   },
