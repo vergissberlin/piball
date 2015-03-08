@@ -13,7 +13,7 @@
 
 
 # 1. Update repository
-cd ~/foosball &&\
+cd ~/.node-red/node_modules/foosball &&\
 git checkout develop &&\
 git pull &&\
 
@@ -26,4 +26,4 @@ cat server/home/pi/node-red/flows_foosball.json > ~/.node-red/flows_foosball.jso
 chown pi ~/.node-red/flows_foosball.json &&\
 
 # 4. Restart node-red
-sudo /etc/init.d/node-red restart
+pm2 restart node-red

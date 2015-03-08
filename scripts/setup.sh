@@ -2,4 +2,4 @@
 
 apt-get update
 apt-get upgrade
-apt-get install mc git gpio
+apt-get install mc git mysql-server

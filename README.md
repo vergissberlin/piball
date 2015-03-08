@@ -1,12 +1,12 @@
 foosball
 ========
 
-Foosball game score counting on node.js with NodeRED.
+Foosball game score counting with [Node-RED](http://nodered.org/).
 
 Documentation
 -------------
 
-1. [node-red](docs/01_node-red.md)	Documentation for installing node-red on a Raspberry PI
+1. [Node-RED](docs/01_node-red.md)	Documentation for installing node-red on a Raspberry PI
 - [Raspberry Pi](docs/02_raspberrypi.md)	Prepare Raspberry PI
 - [WiFi](docs/03_wifi.md)	Setup WiFi on Raspberry PI
 - [Backup](docs/04_backup.md)	Create backup images of your Raspberry PI SD card

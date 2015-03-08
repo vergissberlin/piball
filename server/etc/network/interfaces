@@ -1,21 +1,20 @@
 auto lo
 iface lo inet loopback
 
-# Ethernet
+# Wired
 iface eth0 inet static
-  address 192.168.2.50
-  broadcast 192.168.2.255
-  gateway 192.168.2.1
+  address 192.168.1.50
+  broadcast 192.168.1.255
+  gateway 192.168.1.1
 
 # WiFi
 auto wlan0
-iface wlan0 inet dhcp
-  wpa-ap-scan 1
-  wpa-conf managed
-  wpa-driver wext
-  wpa-group TKIP
-  wpa-key-mgmt WPA-PSK
-  wpa-pairwise TKIP
-  wpa-proto WPA
-  wpa-ssid <YOUR SSID>
+iface wlan0 inet static
+  address 192.168.1.55
+  broadcast 192.168.1.255
+  gateway 192.168.1.1
+  wpa-ssid <SSID>
   wpa-psk <HEX>
+
+# Create wpa-pas with:
+# /> wpa_passphrase <SSID> <KEY>

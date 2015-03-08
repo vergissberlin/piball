@@ -13,7 +13,7 @@
 
 
 # 1. Update repository
-cd ~/foosball &&\
+cd ~/.node-red/node_modules/foosball &&\
 git checkout develop &&\
 git pull &&\
 
