@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "./scripts/preinstall.sh",
-    "postinstall": "ls -lisah",
-    "uninstall": "node scripts/uninstall.js"
+    "postinstall": "pwd",
+    "uninstall": "node ./scripts/uninstall.js"
   },
   "repository": {
     "type": "git",
