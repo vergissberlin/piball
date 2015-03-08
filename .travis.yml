@@ -3,5 +3,8 @@ node_js:
   - "0.12"
   - "0.11"
   - "0.10"
+  - "0.8"
 before_script:
-  - mysql -e 'create database foosball;'
+  - pwd
+  - mysql -e 'CREATE DATABASE foosball;'
+  - mysql -e 'CREATE TABLE `foosball`.`score` (	`id` INTEGER(10) UNSIGNED AUTO_INCREMENT, `type` VARCHAR(24),`updated_at` TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, `created_at` DATETIME DEFAULT NULL, PRIMARY KEY (id));'
