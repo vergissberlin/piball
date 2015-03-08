@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "postinstall": "scripts/postinstall.js",
+    "install": "echo 'Login Hook'",
+    "postinstall": "ls -lisah",
     "test": "echo \"Error: no test specified\" && exit 1",
     "uninstall": "scripts/uninstall.js"
   },
