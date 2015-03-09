@@ -26,10 +26,13 @@ ssh pi@192.168.1.x
 ```
 
 #### Install dependencies
-I prefore the midenight commander. I might use another editor
+I prefer the midnight commander. It is a file manager like the good old norton commander.
+It includes a easy to use text editor, called _mceditor_.
+But you can install the editor of your choice.
+
 ```bash
 sudo aptitude update
-sudo aptitude install mc git
+sudo aptitude install mc git mysql-server mysql-client
 ```
 
 #### Configuration

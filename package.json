@@ -30,6 +30,7 @@
   "homepage": "https://github.com/vergissberlin/foosball",
   "dependencies": {
     "firebase": "2.2.2",
-    "mysql": "2.5.5"
+    "mysql": "2.5.5",
+    "node-red-node-mysql": "0.0.5"
   }
 }

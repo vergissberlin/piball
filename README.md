@@ -17,3 +17,4 @@ Documentation
 4. [Backup](docs/04_backup.md)						Create backup images of your Raspberry PI SD card
 5. [Foosball](docs/05_foosball.md)				About the foosball score counter
 6. [Database](docs/06_database.md)				Using a database
+6. [Firebase](docs/07_firebase.md)				Setup Firebase websocket sas 
