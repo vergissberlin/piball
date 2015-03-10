@@ -40,6 +40,8 @@ iface wlan0 inet static
   address   192.168.2.55
   broadcast 192.168.2.255
   gateway   192.168.2.1
+  network   192.168.2.0  
+  dns-nameservers 192.168.1.4 192.168.1.40
   wpa-ssid  google-access-point
   wpa-psk   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -47,7 +49,15 @@ iface wlan0 inet static
 # Default
 iface default inet dhcp
 ```
-4. Check your WiFi settings <code>ifconfig</code>
-5. Restart your WiFi <code>sudo ifdown wlan0 && sudo ifup wlan0</code>
-6. Check your WiFi settings <code>ifconfig</code>
-7. Check your WiFi settings <code>iwconfig</code>
+4. Add Nameserver
+```bash
+sudo editor /etc/resolvconf/resolv.conf.d/bas
+```
+```bash
+nameserver 192.168.1.4
+nameserver 192.168.1.40
+```
+5. Check your WiFi settings <code>ifconfig</code>
+6. Restart your WiFi <code>sudo ifdown wlan0 && sudo ifup wlan0</code>
+7. Check your WiFi settings <code>ifconfig</code>
+8. Check your WiFi settings <code>iwconfig</code>
