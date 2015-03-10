@@ -1,6 +1,10 @@
 # foosball
 
-## Install node dependencies
+## Install foosball dependencies
+Let's install the dependencies to _foosball_.
+
+Install firebase node for node red.
+https://github.com/hovissimo/node-red-firebase
 
 ```bash
 cd ~/.node-red
