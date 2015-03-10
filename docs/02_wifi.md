@@ -39,7 +39,8 @@ If you you bought the USB WiFi adapter from CSL (http://astore.amazon.de/nrdev-2
     address         192.168.1.155
     broadcast       192.168.1.255
     gateway         192.168.1.1
-    network         192.168.1.0  
+    network         192.168.1.0
+    netmask         255.255.255.0
     dns-search      netresearch.nr
     dns-nameservers 192.168.1.4 192.168.1.41
     wpa-ssid        access-point
