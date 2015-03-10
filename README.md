@@ -6,6 +6,7 @@ foosball
 [![npm version](https://img.shields.io/npm/v/foosball.png)](https://npmjs.org/package/foosball "View this project on npm")
 [![Issues](http://img.shields.io/github/issues/vergissberlin/foosball.svg)]( https://github.com/vergissberlin/foosball/issues "GitHub ticket system")
 
+
 Foosball game score counting with [Node-RED](http://nodered.org/).
 
 Documentation
@@ -18,3 +19,5 @@ Documentation
 5. [Foosball](docs/05_foosball.md)				About the foosball score counter
 6. [Database](docs/06_database.md)				Using a database
 6. [Firebase](docs/07_firebase.md)				Setup Firebase websocket sas 
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vergissberlin/foosball/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
