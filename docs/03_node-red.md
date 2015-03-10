@@ -30,24 +30,7 @@ Have a look on https://github.com/node-red/node-red/blob/master/INSTALL.md or ju
 ```bash
 sudo npm install node-red -g
 ```
-
-Now you can run <code>nod-red</code> to start a webserver with node-red.
-But befor we start, let's install the dependencies to _foosball_.
-
-#### Install foosball dependencies
-
-Install firebase node for node red.
-https://github.com/hovissimo/node-red-firebase
-
-```bash
-cd ~/.node-red
-npm install firebase
-mkdir nodes
-cd nodes/
-git clone https://github.com/hovissimo/node-red-firebase
-```
-
-
+Now you are able to run <code>nod-red</code> with a included webserver.
 
 #### Testing
 
