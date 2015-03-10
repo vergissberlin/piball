@@ -55,8 +55,7 @@ Test connection to you GPIOs (The pins on your raspberry we need to count the go
 
 ```bash
 /usr/local/lib/node_modules/node-red/nodes/core/hardware/nrgpio ver 0
-gpio -v
-gpio readall
+
 ```
 
 ##### Install wiring-pi module
@@ -72,6 +71,13 @@ git pull origin
 ./build
 cd ~/.node-red
 npm install wiring-pi
+```
+###### Testing
+Test connection to you GPIOs with _wiringPi_.
+
+```bash
+gpio -v
+gpio readall
 ```
 
 ## Autostart node-red
