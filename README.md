@@ -7,7 +7,7 @@ foosball
 [![Issues](http://img.shields.io/github/issues/vergissberlin/foosball.svg)]( https://github.com/vergissberlin/foosball/issues "GitHub ticket system")
 
 
-Foosball game score counting with [Node-RED](http://nodered.org/).
+![Node-RED Foosball Flow](https://farm8.staticflickr.com/7593/16639578350_de48fc1da6.jpg "Node-RED Flow")
 
 Documentation
 -------------
