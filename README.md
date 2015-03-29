@@ -8,6 +8,7 @@ foosball
 
 
 ![Node-RED Foosball Flow](https://farm8.staticflickr.com/7593/16639578350_de48fc1da6.jpg "Node-RED Flow")
+[![Foosball](http://img.youtube.com/vi/-rF0w378-7k/0.jpg)](http://www.youtube.com/watch?v=-rF0w378-7k)
 
 Documentation
 -------------
