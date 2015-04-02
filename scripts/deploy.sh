@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Pizza
+# Foosball
 #
 # LICENSE:    MIT
 #
@@ -13,16 +13,16 @@
 
 
 # 1. Update repository
-cd ~/.node-red/node_modules/foosball &&\
+cd ~/foosball &&\
 git checkout develop &&\
 git pull &&\
 
 # 2. Copy flow file and change user
-cat ~/.node-red/flows_foosball.json > server/home/pi/node-red/flows_foosball.json &&\
-chown pi server/home/pi/node-red/flows_foosball.json &&\
+cat ~/.node-red/flows_foosball.json > /home/pi/node-red/flows_foosball.json &&\
+chown pi /home/pi/node-red/flows_foosball.json &&\
 
 # 3. Add and commit changes
-git add server/home/pi/node-red/flows_foosball.json &&\
+git add /home/pi/node-red/flows_foosball.json &&\
 git commit -m "Deploy new flow from Raspberry PI" >> ~/deploy.log &&\
 
 # 4. Push and log
