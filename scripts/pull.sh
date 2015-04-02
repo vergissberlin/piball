@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Pizza
+# Foosball
 #
 # LICENSE:    MIT
 #
 # @project    foosball
-# @package    ChromeExtension
+# @package    deployment
 # @author     André Lademann <vergissberlin@googlemail.com>
 # @copyright  Copyright (c) 2014 andrelademann.de (http://www.andrelademann.de)
 # @license    http://andrelademann.de/license
@@ -13,7 +13,7 @@
 
 
 # 1. Update repository
-cd ~/.node-red/node_modules/foosball &&\
+cd ~/foosball &&\
 git checkout develop &&\
 git pull &&\
 
@@ -22,7 +22,7 @@ git pull &&\
 cat ~/.node-red/flows_foosball.json > ~/.node-red/flows_backup.json &&\
 
 # 3. Copy flow file and change user
-cat server/home/pi/node-red/flows_foosball.json > ~/.node-red/flows_foosball.json &&\
+cat /home/pi/node-red/flows_foosball.json > ~/.node-red/flows_foosball.json &&\
 chown pi ~/.node-red/flows_foosball.json &&\
 
 # 4. Restart node-red

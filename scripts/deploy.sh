@@ -5,7 +5,7 @@
 # LICENSE:    MIT
 #
 # @project    foosball
-# @package    ChromeExtension
+# @package    deployment
 # @author     André Lademann <vergissberlin@googlemail.com>
 # @copyright  Copyright (c) 2014 andrelademann.de (http://www.andrelademann.de)
 # @license    http://andrelademann.de/license
