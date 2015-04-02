@@ -14,7 +14,7 @@
 
 # 1. Update repository
 cd ~/foosball &&\
-git checkout develop &&\
+git checkout master &&\
 git pull &&\
 
 # 2. Copy flow file and change user
