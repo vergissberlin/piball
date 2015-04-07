@@ -62,3 +62,23 @@ If you you bought the USB WiFi adapter from CSL (http://astore.amazon.de/nrdev-2
 6. Restart your WiFi <code>sudo ifdown wlan0 && sudo ifup wlan0</code>
 7. Check your WiFi settings <code>ifconfig</code>
 8. Check your WiFi settings <code>iwconfig</code>
+
+
+---
+# Alternatives
+
+It has been my experience that the WiFi connection can be very unstable. If this is the case, the installation of a network manager's worth.
+
+Good experience I made with *wicd*:
+```bash
+sudo aptitude update
+sudo aptitude install wicd wicd-curses
+```
+After install you can run the networkmanager with:
+Good experience I made with wicd.
+```bash
+sudo wicd-curses
+```
+**Good luck!** :eyes:
+
+:heavy_exclamation_mark: Caution! The setup of the network can be the hardest part of the whole project!
