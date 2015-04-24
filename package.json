@@ -1,6 +1,6 @@
 {
   "name": "foosball",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "Installer for Foosball game score counting with NodeRED.",
   "main": "index.js",
   "directories": {
