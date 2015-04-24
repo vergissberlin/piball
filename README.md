@@ -22,3 +22,7 @@ Documentation
 6. [Firebase](docs/07_firebase.md)				Setup Firebase websocket sas 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vergissberlin/foosball/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vergissberlin/foosball/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
