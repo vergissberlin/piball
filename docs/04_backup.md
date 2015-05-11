@@ -8,8 +8,8 @@
 sudo dd if=/dev/sda5 of=foosball.img
 ```
 
-- Waite a minute or two, done
-- 
+- Wait a minute or two, done
+
 ## Create backups an push tp remote
 
 ### Install dependencies
