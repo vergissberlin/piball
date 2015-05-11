@@ -16,8 +16,8 @@ sudo dd if=/dev/sda5 of=foosball.img
 
 **Ruby RVM**
 ```bash
-sudo gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-sudo \curl -sSL https://get.rvm.io | bash -s stable
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+\curl -sSL https://get.rvm.io | bash -s stable
 ```
 Backup manager ([Docs](http://meskyanichi.github.io/backup/v4/))
 ```bash
