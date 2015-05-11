@@ -14,12 +14,12 @@ sudo dd if=/dev/sda5 of=foosball.img
 
 ### Install dependencies
 
-**Ruby RVM**
+**Ruby RVM** ([Docs](https://rvm.io/))
 ```bash
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-\curl -sSL https://get.rvm.io | bash -s stable
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
 ```
-Backup manager ([Docs](http://meskyanichi.github.io/backup/v4/))
+**Backup manager** ([Docs](http://meskyanichi.github.io/backup/v4/))
 ```bash
 gem install backup
 ```
