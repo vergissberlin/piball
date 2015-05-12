@@ -4,10 +4,14 @@ node_js:
   - "0.11"
   - "0.12"
 before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install libicu-dev
+  - sudo apt-get update
+  - sudo apt-get install libexpat1 libexpat1-dev libicu-dev
 before_script:
   - pwd
   - mysql -e "CREATE DATABASE foosball;"
   - mysql foosball < tests/fixtures/foosball.sql
   - mysql -e "UPDATE mysql.user SET password=PASSWORD('travis') WHERE user='travis'; FLUSH PRIVILEGES"
+notifications:
+  email:
+    recipients:
+      - notifications@andrelademann.de
