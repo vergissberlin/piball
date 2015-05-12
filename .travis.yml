@@ -1,8 +1,6 @@
 language: node_js
 node_js:
   - "0.10"
-  - "0.11"
-  - "0.12"
 before_install:
   - sudo apt-get update
   - sudo apt-get install libexpat1 libexpat1-dev libicu-dev
