@@ -2,5 +2,4 @@
 
 echo 'Pre install script'
 
-
 exit 0;
