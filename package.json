@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "preinstall": "sudo apt-get install libicu-dev",
+    "preinstall": "./scripts/preinstall.sh",
     "postinstall": "./scripts/postinstall.sh",
     "test": "echo \"Info: Test install proccess only.\" && exit 0"
   },
