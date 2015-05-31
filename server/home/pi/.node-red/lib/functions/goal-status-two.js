@@ -7,4 +7,5 @@ if(typeof context.global != 'undefined') {
 		}
 	}
 }
+
 return null;
