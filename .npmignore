@@ -4,9 +4,11 @@
 .editorconfig
 .git
 .hg
+.idea
 .lock-wscript
 .wafpickle-*
 CVS
 npm-debug.log
 /log
+
 
