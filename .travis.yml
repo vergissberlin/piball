@@ -6,8 +6,8 @@ before_install:
   - sudo apt-get install libexpat1 libexpat1-dev libicu-dev
 before_script:
   - pwd
-  - mysql -e "CREATE DATABASE foosball;"
-  - mysql foosball < tests/fixtures/foosball.sql
+  - mysql -e "CREATE DATABASE piball;"
+  - mysql piball < tests/fixtures/piball.sql
   - mysql -e "UPDATE mysql.user SET password=PASSWORD('travis') WHERE user='travis'; FLUSH PRIVILEGES"
 notifications:
   email:

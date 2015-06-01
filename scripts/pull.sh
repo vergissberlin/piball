@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Foosball
+# piball
 #
 # LICENSE:    MIT
 #
-# @project    foosball
+# @project    piball
 # @package    deployment
 # @author     André Lademann <vergissberlin@googlemail.com>
 # @copyright  Copyright (c) 2014 andrelademann.de (http://www.andrelademann.de)
@@ -13,16 +13,16 @@
 
 
 # 1. Update repository
-cd ~/foosball &&\
+cd ~/piball &&\
 git checkout master &&\
 git pull &&\
 
 
 # 2. Create backup
-cat ~/.node-red/flows_foosball.json > ~/.node-red/flows_backup.json &&\
+cat ~/.node-red/flows_piball.json > ~/.node-red/flows_backup.json &&\
 
 # 3. Copy flow file
-cat server/home/pi/.node-red/flows_foosball.json > ~/.node-red/flows_foosball.json &&\
+cat server/home/pi/.node-red/flows_piball.json > ~/.node-red/flows_piball.json &&\
 
 # 4. Restart node-red
 pm2 restart node-red

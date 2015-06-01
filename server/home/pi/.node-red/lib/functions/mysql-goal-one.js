@@ -1,3 +1,3 @@
 // insert score
-msg.topic = 'INSERT INTO `foosball`.`goal` (`type`) VALUES ("teamOne");';
+msg.topic = 'INSERT INTO `piball`.`goal` (`type`) VALUES ("teamOne");';
 return msg;

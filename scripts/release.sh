@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Foosball
+# piball
 #
 # LICENSE:    MIT
 #
-# @project    foosball
+# @project    piball
 # @package    deployment
 # @author     André Lademann <vergissberlin@googlemail.com>
 # @copyright  Copyright (c) 2014 andrelademann.de (http://www.andrelademann.de)
@@ -13,7 +13,7 @@
 
 
 # 1. Deploy current state
-cd ~/foosball &&\
+cd ~/piball &&\
 sh scripts/deploy.sh
 
 git checkout master &&\

@@ -43,7 +43,7 @@ If you you bought the USB WiFi adapter from CSL (http://astore.amazon.de/nrdev-2
     gateway         192.168.1.1
     network         192.168.1.0
     netmask         255.255.255.0
-    dns-search      foosball.nr
+    dns-search      piball.nr
     dns-nameservers 192.168.1.4 192.168.1.41
     wpa-ssid        access-point
     wpa-psk         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

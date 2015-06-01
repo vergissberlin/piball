@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Foosball
+# piball
 #
 # LICENSE:    MIT
 #
-# @project    foosball
+# @project    piball
 # @package    deployment
 # @author     André Lademann <vergissberlin@googlemail.com>
 # @copyright  Copyright (c) 2014 andrelademann.de (http://www.andrelademann.de)
@@ -13,15 +13,15 @@
 
 
 # 1. Update repository
-cd ~/foosball &&\
+cd ~/piball &&\
 git checkout master &&\
 git pull &&\
 
 # 2. Copy flow file
-cat ~/.node-red/flows_foosball.json > server/home/pi/.node-red/flows_foosball.json &&\
+cat ~/.node-red/flows_piball.json > server/home/pi/.node-red/flows_piball.json &&\
 
 # 3. Add and commit changes
-git add server/home/pi/.node-red/flows_foosball.json &&\
+git add server/home/pi/.node-red/flows_piball.json &&\
 git commit -m "Deploy new flow from Raspberry PI" >> ~/deploy.log &&\
 
 # 4. Push and log

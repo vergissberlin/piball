@@ -18,7 +18,7 @@ npm install node-red-node-mysql
 #### All in one
 Enter your _root_ password (remember on install process with the blue ui):
 ```bash
-cd ~/.node-red/node_modules/foosball
+cd ~/.node-red/node_modules/piball
 mysql -u root --password < scripts/setup.sql
 sudo service mysql restart
 ```

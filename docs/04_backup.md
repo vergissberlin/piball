@@ -5,7 +5,7 @@
 - With Linux enter following command on command line
 
 ```bash
-sudo dd if=/dev/sda5 of=foosball.img
+sudo dd if=/dev/sda5 of=piball.img
 ```
 
 - Wait a minute or two, done
