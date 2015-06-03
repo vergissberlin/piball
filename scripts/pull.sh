@@ -22,7 +22,7 @@ git pull &&\
 cat ~/.node-red/flows_piball.json > ~/.node-red/flows_backup.json &&\
 
 # 3. Copy flow file
-cat server/home/pi/.node-red/flows_piball.json > ~/.node-red/flows_piball.json &&\
+cat node-red/flows_piball.json > ~/.node-red/flows_piball.json &&\
 
 # 4. Restart node-red
 pm2 restart node-red

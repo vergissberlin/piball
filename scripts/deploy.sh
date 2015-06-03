@@ -18,10 +18,10 @@ git checkout master &&\
 git pull &&\
 
 # 2. Copy flow file
-cat ~/.node-red/flows_piball.json > server/home/pi/.node-red/flows_piball.json &&\
+cat ~/.node-red/flows_piball.json > node-red/flows_piball.json &&\
 
 # 3. Add and commit changes
-git add server/home/pi/.node-red/flows_piball.json &&\
+git add node-red/flows_piball.json &&\
 git commit -m "Deploy new flow from Raspberry PI" >> ~/deploy.log &&\
 
 # 4. Push and log
