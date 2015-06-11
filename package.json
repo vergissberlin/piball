@@ -1,6 +1,6 @@
 {
   "name": "piball",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "Installer for foosball game score counting with NodeRED.",
   "main": "index.js",
   "directories": {
