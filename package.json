@@ -1,7 +1,7 @@
 {
   "name": "piball",
   "version": "0.0.23",
-  "description": "Installer for piball game score counting with NodeRED.",
+  "description": "Installer for foosball game score counting with NodeRED.",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -15,6 +15,7 @@
   },
   "keywords": [
     "piball",
+    "foosball",
     "node-red",
     "soccer"
   ],
@@ -26,11 +27,5 @@
   "bugs": {
     "url": "https://github.com/vergissberlin/piball/issues"
   },
-  "homepage": "https://github.com/vergissberlin/piball",
-  "dependencies": {
-    "firebase": "^2.2.3",
-    "mysql": "^2.6.1",
-    "node-red-node-mysql": "0.0.5",
-    "node-red-node-xmpp": "0.0.4"
-  }
+  "homepage": "https://github.com/vergissberlin/piball"
 }
