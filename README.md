@@ -21,4 +21,4 @@ Documentation
 6. [Database](docs/06_database.md)				Using a database
 6. [Firebase](docs/07_firebase.md)				Setup Firebase websocket sas
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vergissberlin/piball/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vergissberlin/piball/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Greenkeeper badge](https://badges.greenkeeper.io/vergissberlin/piball.svg)](https://greenkeeper.io/)
